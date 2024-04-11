@@ -1,0 +1,56 @@
+body {
+  background-color: #B9E0FD;
+}
+h1 {
+  border-bottom: 3px solid skyblue;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding: 20px;
+}
+
+.TodoContainer {
+  text-align: center;
+  padding: 50px;
+  padding-top: 0px;
+  padding-bottom: auto;
+  margin-left: 170px;
+  margin-right: 100px;
+  width: 100%;
+}
+
+
+
+.inputTodo {
+  width: 90%;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.ListContainer {
+  display: flex;
+  flex-direction: row;
+  
+
+}
+
+.List {
+  padding: 100px;
+  padding-top: 0px;
+  width: 100%;
+  height: 200px;
+  
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  font-size: 20px;
+  border-bottom: 3px solid skyblue;
+}
+
+.wrapper {
+  margin-left: 100px;
+}
